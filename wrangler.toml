@@ -1,0 +1,7 @@
+name = "cf-openai-agent"
+main = "index.js"
+compatibility_date = "2025-07-27"
+workers_dev = true
+
+[vars]
+OPENAI_API_KEY = "your-real-openai-api-key"
