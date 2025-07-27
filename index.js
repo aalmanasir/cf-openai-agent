@@ -38,4 +38,6 @@ export default {
       }
     }
 
-    return new Response("❌ Method Not Allowed", { s
+    return new Response("❌ Method Not Allowed", { status: 405 });
+  }
+};
